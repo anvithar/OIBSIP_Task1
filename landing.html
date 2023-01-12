@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CupCake</title>
+        <link rel="stylesheet"  href="styles.css">
+</head>
+<body>
+    <div class="ball"></div>
+    <section>
+        <header>
+            <a href="#"><img src="logoo.png" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+
+             </ul>
+        </header>
+        <div class="container">
+            <div class="content" id="par" style:>
+                <h1>Shop <span>Cupcakes</span> </h1>
+                <h2>Order Cupcakes For Your Party</h2>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Quidem vel illo earum saepe 
+                    illum fugiat odio alias architecto delectus eos rerum 
+                    ad odit nesciunt, impedit, laboriosam blanditiis
+                    laudantium beatae. Quis?</p>   
+                <a href="#">Order Now</a>
+                </div>
+            <div class="products">
+                <img src="image1.png" class="cupcake" alt="">
+        </div>
+            <ul class="click">
+             <li><img src="image1.png" alt="" onclick="imgSlider('image1.png');changeColor('#E7B6AB')"></li>
+             <li><img src="image2.png" alt="" onclick="imgSlider('image2.png');changeColor('#D6EAF8')"></li>
+             <li><img src="image3.png" alt="" onclick="imgSlider('image3.png');changeColor('#F7CEF8')"></li>
+            </ul>
+            </div>
+            <script type="text/javascript">
+                function imgSlider(anything){
+                    document.querySelector('.cupcake').src = anything;
+                }
+                function changeColor(color){
+                    const ball=document.querySelector('.ball');
+                    ball.style.background = color;
+                }
+            </script>
+    
+
+        
+    </section>
+</body>
+</html>
