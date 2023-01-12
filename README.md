@@ -1,2 +1,2 @@
 # OIBSIP_Task1
-LANDING PAGE  using HTML and CSS
+Developed LANDING PAGE  using HTML and CSS
