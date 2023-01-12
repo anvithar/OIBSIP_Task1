@@ -1,2 +1,2 @@
-# oasis-task-1
+# OIBSIP_Task1
 LANDING PAGE  using HTML and CSS
